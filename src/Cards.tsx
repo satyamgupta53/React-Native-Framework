@@ -7,11 +7,9 @@ import ActionCards from './cards/ActionCards';
 const Cards = () => {
   return (
     <SafeAreaView>
-        <ScrollView>
             <FlatCards />
             <FancyCards />
             <ActionCards />
-        </ScrollView>
     </SafeAreaView>
   )
 }
