@@ -1,19 +1,13 @@
-import React from 'react';
+import {SafeAreaView, ScrollView} from 'react-native';
+import React, {JSX} from 'react';
+import Cards from './src/Cards';
 
-import {
-  View, // similar to div in web
-  Text,
-  SafeAreaView,
-} from 'react-native';
-
-function App() {
+const App = (): JSX.Element => {
   return (
     <SafeAreaView>
-      <View>
-        <Text>Main App</Text>
-      </View>
+        <Cards />
     </SafeAreaView>
   );
-}
+};
 
 export default App;
